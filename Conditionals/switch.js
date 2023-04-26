@@ -1,0 +1,22 @@
+/* Take a look at the code below. Without running it, determine
+what it will log to the console.*/
+
+let animal = 'horse';
+
+switch (animal) {
+  case 'duck':
+    console.log('quack');
+  case 'squirrel':
+    console.log('nook nook');
+  case 'horse':
+    console.log('neigh');
+  case 'bird':
+    console.log('tweet tweet');
+  default:
+    console.log('*cricket*');
+}
+
+// There are no break statements, so it will log:
+// "neigh"
+// "tweet tweet"
+// "*cricket*"
